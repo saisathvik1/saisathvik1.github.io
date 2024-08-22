@@ -675,7 +675,7 @@ sudo ip r add <subnet> dev ligolo
         - filetype
         - intitle
         - GHDB - Google hacking database
-    - OS and Service Information using [searchdns.netcraft.com](http://searchdns.netcraft.com)
+    - OS and Service Information using [searchdns.netcraft.com](https://searchdns.netcraft.com)
     - Github dorking
         - filename
         - user
@@ -1688,7 +1688,7 @@ firefox index.html
 
 ### PingCastle
 
-- [www.pingcastle.com](http://www.pingcastle.com) - Download Zip file from here.
+- [www.pingcastle.com](https://www.pingcastle.com) - Download Zip file from here.
 - This needs to be run on windows machine, just hit enter and give the domain to scan.
 - It gives a report at end of scan.
 
