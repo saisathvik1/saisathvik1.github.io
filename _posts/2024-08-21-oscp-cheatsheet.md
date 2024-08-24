@@ -4,6 +4,9 @@ date: 2024-08-21 00:00:00 +8000
 categories: [Certifications, Offensive Security, Cheatsheet]
 tags: []
 description: A concise OSCP cheatsheet offering essential tools, techniques, and commands for efficient penetration testing, privilege escalation, and exploitation.
+image:
+  path: images/oscp-logo.png
+  alt: OSCP Logo
 ---
 
 # General
