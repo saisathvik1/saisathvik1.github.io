@@ -4,6 +4,9 @@ date: 2024-08-24 00:00:00 +8000
 categories: []
 tags: []
 description: Collection of all my Hacking gadgets and their usage.
+image:
+    path: images/mrrobot.jpg
+    alt: By ValencyGraphics
 ---
 
 I started learning ethical hacking after being inspired by Elliot Alderson from the *Mr. Robot* series. Over the years, I've accumulated a variety of gadgets, and I’d like to briefly cover what each of them does.
