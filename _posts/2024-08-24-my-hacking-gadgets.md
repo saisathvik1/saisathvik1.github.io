@@ -22,3 +22,5 @@ I started learning ethical hacking after being inspired by Elliot Alderson from 
 - One of the coolest thing in Mr Robot is how elliot hacks lot of stuff using his phone like wifi attacks, running scripts...etc. Inspired from this I purchased Oneplus One during my 2nd year in UG. This is cheapest as it's very old at tha point of time. Main reason I choosed Oneplus One because it's well supported in the community and this was my firs time rooting and flashing rom.
 
 ![Nethunter Oneplus One](images/nethunter-opone.jpg){: width="200" height="300" }
+
+....... To be continued
