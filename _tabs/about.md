@@ -28,7 +28,7 @@ I'm **Sai Sathvik Ruppa**, a dedicated cybersecurity enthusiast with a strong fo
 
 ## Content Creation
 
-In addition to my academic and professional endeavors, I am the creator of **"Sathvik Techtuber"**, a YouTube channel with over 15,000 subscribers. My channel features more than 300 free tutorial videos covering topics such as network and web penetration testing, OSINT, and CTF walkthroughs. Recognized as a top global cybersecurity content creator, I strive to make cybersecurity education accessible to everyone.
+In addition to my academic and professional endeavors, I am the creator of [**"Sathvik Techtuber"**](https://www.youtube.com/@SathvikTechtuber), a YouTube channel with over 15,000 subscribers. My channel features more than 300 free tutorial videos covering topics such as network and web penetration testing, OSINT, and CTF walkthroughs. Recognized as a top global cybersecurity content creator, I strive to make cybersecurity education accessible to everyone.
 
 ## Extracurricular Activities
 
