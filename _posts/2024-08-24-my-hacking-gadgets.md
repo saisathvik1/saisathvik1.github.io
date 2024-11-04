@@ -25,5 +25,18 @@ I started learning ethical hacking after being inspired by Elliot Alderson from 
 - One of the coolest thing in Mr Robot is how elliot hacks lot of stuff using his phone like wifi attacks, running scripts...etc. Inspired from this I purchased Oneplus One during my 2nd year in UG. This is cheapest as it's very old at tha point of time. Main reason I choosed Oneplus One because it's well supported in the community and this was my firs time rooting and flashing rom.
 
 ![Nethunter Oneplus One](images/nethunter-opone.jpg){: width="200" height="300" }
+- These days I'm using Nexus 6s for Nethunter, Oneplus One was pretty beaten up and Oneplus for some reason not willing to repair my device.(Some Policy)
+(Add picture of Nessus)
 
-....... To be continued
+## Flipper Zero
+- Hacker's Swiss Army knife, this is the first gadget I bought the moment I landed in US.
+- I love every aspect of this device and I feel it's worth paying $200, first thing I've done was cloning some NFC cards and testing them, I also hacked my car(When i went back to India in Summer)
+- I purchased a Wifi Extension to unlock the full potential of this beast.
+(Add picture of Flipper)
+
+## Panda PAU09
+- One of my recent additions, this works very well and supports both 2.4gHz and 5gHz bandwidths.
+- I bought this for $30 on Ebay, Now I don't have to worry anymore about dual band WiFi.
+
+
+> This is not the end, I'll keep improving my toolkit ;)
