@@ -67,9 +67,9 @@ ignoreErrors = ["additional-script-loading-error"]
 
 [Languages.en-gb.params.author]
   avatar = "me.jpg" # Put your profile picture in assets folder
-  intro = "Sai Sathvik's Blog"
+  intro = "Sai Sathvik (aka s4thv1k)"
   name = "Sai Sathvik"
-  description = "OSCP certified cybersecurity researcher passionate about binary exploitation, web application security, and red team operations."
+  description = "Documenting my Cybersecurity journey"
 
 [Languages.en-gb.params.webmanifest]
   name = "Sai Sathvik"
