@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sai Sathvik</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Sai Sathvik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Internship Experience at A10 Networks</title>
+      <link>http://localhost:1313/posts/internship-experience/</link>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/internship-experience/</guid>
+      
+      <description>&lt;p&gt;After a long internship search, I got my first internship offer from A10 Networks as a Threat Research Intern.
+&lt;img src=&#34;http://localhost:1313/posts/internship-experience/a10.png&#34; alt=&#34;A10 Networks&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;project---hacking-hackers&#34;&gt;Project - Hacking Hackers&lt;/h3&gt;
+&lt;p&gt;My goal is to build a Mirai Botnet tracker that tracks the victims in the early phases of the attack. As this is research work, the goals are not fixed. And why Mirai? Coz it&amp;rsquo;s very common.
+First, I started with analyzing the Mirai malware from Malware Bazaar by doing static and dynamic analysis. After so many trials, I figured out a unique technique(might get a patent for this 🥳) and built a tracker, as well as some other side quests that got good feedback.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>CVE-2024-47062 PoC</title>
+      <link>http://localhost:1313/posts/cve-2024-47062-poc/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/cve-2024-47062-poc/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/cve-2024-47062-poc/navidrome_logo.png&#34; alt=&#34;Landscape&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GitHub link&lt;/em&gt;: &lt;a href=&#34;https://github.com/saisathvik1/CVE-2024-47062&#34;&gt;https://github.com/saisathvik1/CVE-2024-47062&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This PoC demonstrates how an SQL Injection vulnerability in Navidrome (CVE-2024-47062) can be exploited to gain admin access. It explains how SQL Injection can reveal sensitive data, how to use a JWT token to obtain admin privileges, and how to decrypt passwords with a hardcoded key stored in Navidrome. This project was created for our Hacking and Offensive Security class (18-739D) at CMU.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team: Michael Crotty, Annie Liu, Tilden Jackson, Sai Sathvik&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Binary Exploitation: Understanding What Happens When an Executable Runs</title>
+      <link>http://localhost:1313/posts/binary-exploitation-1/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/binary-exploitation-1/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/binary-exploitation-1/cpu-bin1.jpeg&#34; alt=&#34;Landscape&#34;&gt;
+When you write a C program, such as:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;fun&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;fun&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;fun&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nf&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;%d&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The code outputs 200. But what exactly happens from writing this code to seeing the output? Let’s break down the process of compiling and running this program.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-compiling&#34;&gt;What is Compiling?&lt;/h3&gt;
+&lt;p&gt;Compiling converts human-readable C code into machine code that the computer can execute. Here’s how you can compile your code:&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>OSCP Cheatsheet</title>
+      <link>http://localhost:1313/posts/oscp-cheatsheet/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/oscp-cheatsheet/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;Prepared as part of my OSCP Preparation.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Successfully passed the OSCP exam on May 20, 2024. Verify my achievement &lt;a href=&#34;https://www.credential.net/666b9a86-017d-48fa-894a-5c39ef1d7b7b&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Feel free to open a pull request if you have any corrections, improvements, or new additions!&lt;/li&gt;
+&lt;li&gt;You can access my cheatsheet from here: &lt;a href=&#34;https://s4thv1k.com/posts/oscp-cheatsheet/&#34;&gt;https://s4thv1k.com/posts/oscp-cheatsheet/&lt;/a&gt; as well!&lt;/li&gt;
+&lt;li&gt;Helped over 20 individuals in passing their exam:) Please let me know if this helped you too ❤️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;general&#34;&gt;General&lt;/h1&gt;
+&lt;aside&gt;
+💡 For Finding all important files in Windows (CTF Style)
+&lt;p&gt;&lt;code&gt;cd c:\Users&lt;/code&gt; then
+&lt;code&gt;tree /F&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

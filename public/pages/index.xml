@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Sai Sathvik</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Sai Sathvik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Sai Sathvik Ruppa&lt;/strong&gt;, a cybersecurity researcher and OSCP certified professional currently pursuing my Master&amp;rsquo;s in Information Security at Carnegie Mellon University.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OSCP Certified&lt;/strong&gt; penetration tester&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CTF Player&lt;/strong&gt; with Plaid Parliament of Pwning (PPP)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content Creator&lt;/strong&gt; - 17K+ YouTube subscribers, 350+ free tutorials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;current-focus&#34;&gt;Current Focus&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparing for OSEP&lt;/li&gt;
+&lt;li&gt;Exploring new domains&lt;/li&gt;
+&lt;li&gt;Applying to Full time positions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;In cybersecurity, the best defense is understanding the offense.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

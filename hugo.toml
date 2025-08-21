@@ -1,0 +1,96 @@
+title = "Sai Sathvik"
+baseURL = 'https://saisathvik1.github.io/'
+
+# This is what goes in <html lang="">
+languageCode = 'en-us'
+
+# This defines how dates are formatted
+defaultContentLanguage = "en-gb"
+
+# Enable Table of contents
+[params]
+  toc = true
+  goToTop = true
+
+# Enable emojis globally
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+############################## English language ################################
+[Languages.en-gb]
+  languageName = "English"
+  languageCode = "en-gb"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en-gb.menu]
+  [[Languages.en-gb.menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[Languages.en-gb.menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/pages/about/'
+    weight = 30
+
+[Languages.en-gb.params]
+  sitename = "Sai Sathvik"
+  defaultColor = "dark"
+  description = "Insights from my cybersecurity journey—OSCP to real-world pentesting"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "2 Jan 2006"
+  rssFeedDescription = "summary"
+
+[Languages.en-gb.params.author]
+  avatar = "me.jpg" # Put your profile picture in assets folder
+  intro = "Sai Sathvik's Blog"
+  name = "Sai Sathvik"
+  description = "OSCP certified cybersecurity researcher passionate about binary exploitation, web application security, and red team operations."
+
+[Languages.en-gb.params.webmanifest]
+  name = "Sai Sathvik"
+  short_name = "Sai Sathvik"
+  start_url = "/"
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+
+[params.browserconfig]
+  TileColor = "#2d89ef"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/saisathvik1"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/saisathvikruppa/"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://x.com/s4thv1k"
+

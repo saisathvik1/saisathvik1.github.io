@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Offensive Security on Sai Sathvik</title>
+    <link>http://localhost:1313/categories/offensive-security/</link>
+    <description>Recent content in Offensive Security on Sai Sathvik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/offensive-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSCP Cheatsheet</title>
+      <link>http://localhost:1313/posts/oscp-cheatsheet/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/oscp-cheatsheet/</guid>
+      
+      <description>&lt;p&gt;&lt;strong&gt;Prepared as part of my OSCP Preparation.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Successfully passed the OSCP exam on May 20, 2024. Verify my achievement &lt;a href=&#34;https://www.credential.net/666b9a86-017d-48fa-894a-5c39ef1d7b7b&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Feel free to open a pull request if you have any corrections, improvements, or new additions!&lt;/li&gt;
+&lt;li&gt;You can access my cheatsheet from here: &lt;a href=&#34;https://s4thv1k.com/posts/oscp-cheatsheet/&#34;&gt;https://s4thv1k.com/posts/oscp-cheatsheet/&lt;/a&gt; as well!&lt;/li&gt;
+&lt;li&gt;Helped over 20 individuals in passing their exam:) Please let me know if this helped you too ❤️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;general&#34;&gt;General&lt;/h1&gt;
+&lt;aside&gt;
+💡 For Finding all important files in Windows (CTF Style)
+&lt;p&gt;&lt;code&gt;cd c:\Users&lt;/code&gt; then
+&lt;code&gt;tree /F&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
