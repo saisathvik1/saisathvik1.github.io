@@ -94,3 +94,6 @@ url = "https://www.linkedin.com/in/saisathvikruppa/"
 name = "twitter"
 url = "https://x.com/s4thv1k"
 
+[[params.socialIcons]]
+name = "youtube"
+url = "https://youtube.com/@SathvikTechtuber"

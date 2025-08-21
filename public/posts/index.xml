@@ -23,6 +23,21 @@ First, I started with analyzing the Mirai malware from Malware Bazaar by doing s
     </item>
     
     <item>
+      <title>Cool things I did at DefCon 33</title>
+      <link>http://localhost:1313/posts/defcon-33/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/defcon-33/</guid>
+      
+      <description>&lt;p&gt;I went to Defcon once again, and I loved this time too. Unlike last time, this time I attended some talks too. This gave me motivation to work on cool projects.&lt;/p&gt;
+&lt;h3 id=&#34;ctfs&#34;&gt;CTFs&lt;/h3&gt;
+&lt;p&gt;I participated CTFs at Bugbounty, Maritime Hacking, Red ICS, Recon and Adversary Villages. I didn&amp;rsquo;t completely lockin but solved few challenges, one of the main road-block I experienced was bad WiFi, it&amp;rsquo;s very slow and since these challenges require some research and GPTing, I had to rely on hotspot and that&amp;rsquo;s bad too.
+I really liked the Red ICS CTF and solved 6 challenges.
+Scammed a scammer at Scambait village and wasted his time lol. and won a tshirt 🥳🥳&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>CVE-2024-47062 PoC</title>
       <link>http://localhost:1313/posts/cve-2024-47062-poc/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
